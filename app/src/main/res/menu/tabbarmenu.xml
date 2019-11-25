@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+<!--    <item-->
+<!--        android:id="@id/dailyTopicsFragment"-->
+<!--        android:title="@string/tab_bar_item_one_text"-->
+<!--        android:icon="@drawable/icon_daily_nav_gray"/>-->
+<!--    <item-->
+<!--        android:id="@id/customTopicsFragment"-->
+<!--        android:title="@string/tab_bar_item_two_text"-->
+<!--        android:icon="@drawable/icon_custom_nav_gray"/>-->
+<!--    <item-->
+<!--        android:id="@id/privateTopicsFragment"-->
+<!--        android:title="@string/tab_bar_item_three_text"-->
+<!--        android:icon="@drawable/icon_private_nav_gray"/>-->
+<!--    <item-->
+<!--        android:id="@id/beaconsFragment"-->
+<!--        android:title="@string/tab_bar_item_four_text"-->
+<!--        android:icon="@drawable/icon_beacons_nav_gray"/>-->
+<!--    <item-->
+<!--        android:id="@id/userProfileFragment"-->
+<!--        android:title="@string/tab_bar_item_five_text"-->
+<!--        android:icon="@drawable/icon_profile_nav_gray"/>-->
+</menu>

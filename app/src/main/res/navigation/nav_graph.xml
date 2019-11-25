@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/dashBoardFragment">
+
+    <fragment
+        android:id="@+id/dashBoardFragment"
+        android:name="com.deltatechforce.statusdownloaderforwhatsapp.fragments.DashBoardFragment"
+        android:label="fragment_dash_board"
+        tools:layout="@layout/fragment_dash_board" >
+        <action
+            android:id="@+id/action_dashBoardFragment_to_bigImageFragment"
+            app:destination="@id/bigImageFragment" />
+        <action
+            android:id="@+id/action_dashBoardFragment_to_videoPlayFragment"
+            app:destination="@id/videoPlayFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/bigImageFragment"
+        android:name="com.deltatechforce.statusdownloaderforwhatsapp.fragments.BigImageFragment"
+        android:label="BigImageFragment" />
+    <fragment
+        android:id="@+id/videoPlayFragment"
+        android:name="com.deltatechforce.statusdownloaderforwhatsapp.fragments.VideoPlayFragment"
+        android:label="fragment_video_play"
+        tools:layout="@layout/fragment_video_play" />
+</navigation>
